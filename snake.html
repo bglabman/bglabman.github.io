@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake</title>
+
+      <meta name="author" content="Ben Glabman">
+  <!-- view window for phone vs laptop -->
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div id="title">
+	<div id="header">
+		<div id="nav"><a href="index.html">About Me</a> | <a href="secrets.html">Secrets</a> | <a href="Fluid.html">Fluid</a>
+
+        </div>
+		<div id="bg"></div>
+        <div class="box">
+    
+    <div id="game-area" tabindex="0" style="display: table; margin: 0 auto"></div>
+    <script type="text/javascript" src="snake.js"></script>
+    <script type="text/javascript">
+        var mySnakeBoard = new SNAKE.Board( {
+            boardContainer: "game-area",
+            fullScreen: false,
+            width: 580,
+            height: 400
+        });
+    </script>
+    </div>
+    <div id="output">
+<br> Ben Glabman 2018 ©
+            </div>
+  </div>
+  
+</body>
+</html>
