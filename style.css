@@ -1,0 +1,258 @@
+body {
+	margin:0px;
+	padding:0px;
+    background: #000000;
+    color: white;
+    text-align: center;
+    margin:0;
+    padding:0;
+    background: #000000;
+    color: #FFFFFF;
+    line-height: 1.25em;
+}
+#linea {
+font-family: times;
+font-weight: bold;
+}
+#lineb {
+    color: grey;
+    font-family: times;
+}
+#linec {
+    color: grey;
+    font-family: times;
+    text-align: left;
+}
+#fluid a:link {
+    font-weight: bold;
+    color:#3366FF;
+    text-decoration: none;
+}
+
+#fluid a:visited, #nav a:link {
+    text-decoration:none;
+    color:#3366FF;
+    font-weight: bold;
+}
+
+#fluid a:hover {
+    text-align: center;
+     margin:0;
+    padding:0;
+    line-height: 1.25em;
+     text-decoration: none;
+     color: #3366FF;
+     font-weight: bold;
+    color:white;
+}
+
+.box {
+    background: white;
+    border:none;
+    padding:15px;
+    color:#3366FF;
+}
+
+h1{
+  color:#3366FF;
+}
+#logo {
+    margin: 20px;
+    font-size: 60px;
+
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3.5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3.5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3.5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    15%{color: red;}
+    30%{color: orange;}
+    45%{color: yellow;}
+    60%{color: green;}
+    75%{color: indigo;}
+    90%{color: violet;}
+    100%{color: pink;}  
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+    15%{color: red;}
+    30%{color: orange;}
+    45%{color: yellow;}
+    60%{color: green;}
+    75%{color: indigo;}
+    90%{color: violet;}
+    100%{color: pink;}  
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    15%{color: red;}
+    30%{color: orange;}
+    45%{color: yellow;}
+    60%{color: green;}
+    75%{color: indigo;}
+    90%{color: violet;}
+    100%{color: pink;}  }{
+
+    margin-bottom:20px;
+    font:normal 45px Georgia, arial;
+}
+#here a:visited, #here a:link {
+    text-decoration:none;
+    color:#3366FF;
+    font-weight: bold;
+}
+
+#here a:hover {
+    text-align: center;
+     margin:0;
+    padding:0;
+    background: #000000;
+    color: #FFFFFF;
+    line-height: 1.25em;
+     text-decoration: none;
+     color: #3366FF;
+     font-weight: bold;
+    color:white;
+}
+#nav a:visited, #nav a:link {
+    text-decoration:none;
+    color:#3366FF;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    text-align: center;
+     margin:0;
+    padding:0;
+    background: #000000;
+    color: #FFFFFF;
+    line-height: 1.25em;
+     text-decoration: none;
+     color: #3366FF;
+     font-weight: bold;
+    color:white;
+}
+
+#game-area {
+	margin:0px;
+	padding:0px;
+}
+
+#header {
+    margin:0 1px;
+}
+
+#game-area:focus { outline: none; }
+
+a.snake-link, a.snake-link:link, a.snake-link:visited {
+  color: #3366FF; 
+}
+
+a.snake-link:hover {
+  color: #FfFf54; 
+}
+
+
+.snake-panel-component {
+    position: absolute;
+    font-family: Verdana, arial, helvetica, sans-serif; 
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #3366FF;
+    padding: 8px;
+    margin: 0px;
+}
+
+.snake-snakebody-block {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FF0000;
+    position: absolute;
+    border: 0px solid #000080;
+    background-repeat: no-repeat;
+}
+
+.snake-snakebody-alive {
+   background-image: url('snakeblock.png');
+}
+.snake-snakebody-dead {
+   background-image: url('deadblock.png');
+}
+
+.snake-food-block {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FF0000;
+    border: 0px solid #000080;
+    position: absolute;
+}
+
+.snake-playing-field {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    background-color: #0000A8;
+    border: 0px solid #0000A8;
+}
+
+#title {
+    margin:0 auto;
+    width:632px;
+    border-left:1px none;
+    border-right:1px none;
+}
+
+.snake-game-container {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: none;
+    zoom: 1;
+    background-color: #3366FF;
+    position: relative;
+}
+            
+.snake-welcome-dialog {
+    padding: 8px;
+    margin: 0px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Verdana, arial, helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: -158px;
+    text-align: center;
+    display: block;
+}
+
+.snake-try-again-dialog {
+    padding: 8px;
+    margin: 0px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Verdana, arial, helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 100px;
+    margin-top: -75px;
+    margin-left: -158px;
+    text-align: center;
+    display: none;
+}
