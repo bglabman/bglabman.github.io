@@ -134,6 +134,11 @@ h1{
     color:white;
 }
 
+#ded a:hover {
+    filter: invert(100%);
+}
+
+
 #game-area {
 	margin:0px;
 	padding:0px;
