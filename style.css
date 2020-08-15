@@ -135,7 +135,8 @@ h1{
 }
 
 #ded a:hover {
-    filter: invert(100%);
+    filter: grayscale(100%)
+    Brightness(100%);
 }
 
 
