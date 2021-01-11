@@ -1,23 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Idle Game</title>
-</head>
-
-<div id="header">
-    <div id="nav"><a href="https://bglabman.github.io/games">Games</a>
-
-        </div>
-
-<h1><center>Idle Game</center><br> $<span id="goldTxt">0</span></h1>
-Score: <span class="score-value">0</span>
-
-
-<h2>Your Businesses:</h2>
-<div id = "main"></div>
-
-
- <style>
+  <style>
 
 html {
   font-family:verdana;
@@ -37,8 +22,22 @@ input {
   margin-left:10px;
 }
  </style>
+</head>
+<body>
  
- <script type="text/javascript">
+<div id="header">
+    <div id="nav"><a href="https://bglabman.github.io/games">Games</a>
+        </div>
+
+<h1>Idle Game<br> $<span id="goldTxt">0</span></h1>
+Score: <span class="score-value">0</span>
+
+<img src="bglabman.github.io/deadblock.png" alt="image" width="150" height="70">
+
+<h2>Your Businesses:</h2>
+<div id = "main"></div>
+
+ <script>
  
 
 class Game {
@@ -138,4 +137,6 @@ for(i = 0 ; i < business.length; i++) {
 setInterval(update, 2000/7);
 
 </script>
+</div>
+</body>
 </html>
