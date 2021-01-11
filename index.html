@@ -4,6 +4,15 @@ title: Ben Glabman
 ---
 
 		<div class="blurb">
-			<h1>Hi there, I'm Ben!</h1>
+ <h1 onclick="changeThis(this, &#39;Make yourself at home&#39;, &#39;000&#39;)">
+        Hi there, I'm Ben.
+      </h1>
+
+      <script> function changeThis(elem, txt, clr) {
+        x= elem; 
+        y= x.innerHTML = txt;
+        x.style.color = clr;
+       } 
+         </script>
+	</div> 
 			<p> Welcome to my Website!</p>
-		</div> 
