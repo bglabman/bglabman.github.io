@@ -10,6 +10,13 @@ body {
     color: #FFFFFF;
     line-height: 1.25em;
 }
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
 #linea {
 font-family: times;
 font-weight: bold;
