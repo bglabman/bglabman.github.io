@@ -123,7 +123,6 @@ console.log("BUY " + this.id)
   
   document.getElementById("cost" + this.id).innerHTML = "$" + businessCost(this.id);
 }
-</script>
 
 function businessCost(id) {
 	return (id + 2) * (id + 1) * (id + 1) * (businessAmount[id] + 1);
