@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Idle Game</title>
-  <style>
+	 <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Idle Game</title>
+<style>
 
 html {
   font-family:verdana;
@@ -27,7 +28,7 @@ input {
  
 <div id="header">
     <div id="nav"><a href="https://bglabman.github.io/games">Games</a>
-        </div>
+        </div></div>
 
 <h1>Idle Game<br> $<span id="goldTxt">0</span></h1>
 Score: <span class="score-value">0</span>
@@ -38,7 +39,6 @@ Score: <span class="score-value">0</span>
 <div id = "main"></div>
 
  <script>
- 
 
 class Game {
   constructor() {
@@ -124,6 +124,7 @@ console.log("BUY " + this.id)
   
   document.getElementById("cost" + this.id).innerHTML = "$" + businessCost(this.id);
 }
+</script>
 
 function businessCost(id) {
 	return (id + 2) * (id + 1) * (id + 1) * (businessAmount[id] + 1);
